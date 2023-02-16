@@ -1,0 +1,3102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="icon" href="favicon.png" /> -->
+    <meta name="format-detection" content="telephone=no" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stories Slider</title>
+    <script type="module" crossorigin src="assets/index.d2061195.js"></script>
+    <link rel="stylesheet" href="assets/index.368bd06a.css">
+  </head>
+
+  <body>
+    <div id="app">
+      <!-- Demo app -->
+      <div class="demo-app">
+        <!-- Demo content -->
+        <!-- <div class="demo-title">
+          <img src="images/logo.png" width="156" />
+        </div> -->
+        <div class="demo-stories">
+          <a href="#">
+            <span class="demo-stories-avatar">
+              <img src="avatars/widget-1.png" alt="" />
+            </span>
+            <span class="demo-stories-name">Эко-квартал</span>
+          </a>
+          <a href="#">
+            <span class="demo-stories-avatar">
+              <img src="avatars/widget-2.png" alt="" />
+            </span>
+            <span class="demo-stories-name">Свой<br />двор-парк</span>
+          </a>
+          <a href="#">
+            <span class="demo-stories-avatar">
+              <img src="avatars/widget-3.png" alt="" />
+            </span>
+            <span class="demo-stories-name">Сервисы<br />и удобства</span>
+          </a>
+          <a href="#">
+            <span class="demo-stories-avatar">
+              <img src="avatars/widget-4.png" alt="" />
+            </span>
+            <span class="demo-stories-name">VERY KIDS</span>
+          </a>
+          <a href="#">
+            <span class="demo-stories-avatar">
+              <img src="avatars/widget-5.png" alt="" />
+            </span>
+            <span class="demo-stories-name">Планировки<br />и цены</span>
+          </a>
+          <a href="#">
+            <span class="demo-stories-avatar">
+              <img src="avatars/widget-6.png" alt="" />
+            </span>
+            <span class="demo-stories-name">Условия<br />покупки</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Stories Slider -->
+      <div class="stories-slider">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <!-- VERY: STORY 1 -->
+            <div class="swiper-slide">
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <!-- VERY: SLIDE 1-1 -->
+                  <div class="swiper-slide" style="background-color: white">
+                    <div class="top-gradient"></div>
+                    <div class="stories-slider-actions">
+                      <button class="stories-slider-close-button"></button>
+                    </div>
+                    <div
+                      class="stories-slider-content"
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                      "
+                    >
+                      <div class="stories-slider-cnt" style="padding: 32px 0 0">
+                        <div class="wrapper">
+                          <img
+                            class="logo"
+                            src="images/very-logo.svg"
+                            width="89"
+                            height="23"
+                            alt=""
+                            style="margin-bottom: 20px"
+                          />
+                          <h1 class="page-title" style="margin-bottom: 12px">
+                            Шикарный вид<br />на день
+                          </h1>
+                          <p class="page-text">
+                            Из панорамных окон открываются удивительной красоты
+                            виды на зелень парков и город.
+                          </p>
+                        </div>
+                        <!-- <div class="slider swiper">
+                          <div class="swiper-wrapper">
+                            <img
+                              class="swiper-slide inner-swiper-slide"
+                              src="images/slider-images/image-1.jpg"
+                              width="720"
+                              height="470"
+                              alt=""
+                            />
+                            <img
+                              class="swiper-slide inner-swiper-slide"
+                              src="images/slider-images/image-2.jpg"
+                              width="720"
+                              height="470"
+                              alt=""
+                            />
+                            <img
+                              class="swiper-slide inner-swiper-slide"
+                              src="images/slider-images/image-3.jpg"
+                              width="720"
+                              height="470"
+                              alt=""
+                            />
+                            <img
+                              class="swiper-slide inner-swiper-slide"
+                              src="images/slider-images/image-4.jpg"
+                              width="720"
+                              height="470"
+                              alt=""
+                            />
+                            <img
+                              class="swiper-slide inner-swiper-slide"
+                              src="images/slider-images/image-5.jpg"
+                              width="720"
+                              height="470"
+                              alt=""
+                            />
+                          </div>
+                          <div class="slider__navigation">
+                            <div class="slider__controls">
+                              <a
+                                role="button"
+                                class="slider__control inner-swiper-button-prev"
+                              ></a>
+                              <a
+                                role="button"
+                                class="slider__control inner-swiper-button-next"
+                              ></a>
+                            </div>
+                            <div class="inner-swiper-pagination"></div>
+                          </div>
+                        </div> -->
+                      </div>
+                      <div class="cta-layer">
+                        <div
+                          class="cta-layer__cnt"
+                          style="position: relative; z-index: 999999"
+                        >
+                          <a
+                            role="button"
+                            class="btn btn-next"
+                            data-story-index="0"
+                          >
+                            Парки рядом
+                            <img
+                              src="images/arrow-right.svg"
+                              width="24"
+                              height="18"
+                              alt=""
+                            />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- VERY: SLIDE 1-2 -->
+                  <div class="swiper-slide" style="background-color: white">
+                    <div class="top-gradient"></div>
+                    <div class="stories-slider-actions">
+                      <button class="stories-slider-close-button"></button>
+                    </div>
+                    <div
+                      class="stories-slider-content page-1-2-bg"
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                      "
+                    >
+                      <div class="stories-slider-cnt" style="padding: 32px 0 0">
+                        <div class="wrapper">
+                          <img
+                            class="logo"
+                            src="images/very-logo.svg"
+                            width="89"
+                            height="23"
+                            alt=""
+                            style="margin-bottom: 20px"
+                          />
+                          <h1 class="page-title" style="margin-bottom: 12px">
+                            Окружите себя<br />природой
+                          </h1>
+                          <p class="page-text">
+                            600 гектаров прогулочных зон в шаговой доступности.
+                          </p>
+                          <div class="parks-list">
+                            <div class="parks-list__item">
+                              <img
+                                src="images/time-icons/2-mins.png"
+                                width="45"
+                                height="47"
+                                alt=""
+                              />
+                              <span>Ботанический сад</span>
+                            </div>
+                            <div class="parks-list__item">
+                              <img
+                                src="images/time-icons/12-mins.png"
+                                width="45"
+                                height="47"
+                                alt=""
+                              />
+                              <span>Мичуринский сад</span>
+                            </div>
+                            <div class="parks-list__item">
+                              <img
+                                src="images/time-icons/13-mins.png"
+                                width="45"
+                                height="47"
+                                alt=""
+                              />
+                              <span>Парк “Сад будущего”</span>
+                            </div>
+                            <div class="parks-list__item">
+                              <img
+                                src="images/time-icons/14-mins.png"
+                                width="45"
+                                height="47"
+                                alt=""
+                              />
+                              <span>Леоновская роща</span>
+                            </div>
+                            <div class="parks-list__item">
+                              <img
+                                src="images/time-icons/15-mins.png"
+                                width="45"
+                                height="47"
+                                alt=""
+                              />
+                              <span>Парк Останкино</span>
+                            </div>
+                            <div class="parks-list__item">
+                              <img
+                                src="images/time-icons/25-mins.png"
+                                width="45"
+                                height="47"
+                                alt=""
+                              />
+                              <span>Парк ВДНХ</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="cta-layer">
+                        <div
+                          class="cta-layer__cnt"
+                          style="position: relative; z-index: 999999"
+                        >
+                          <a
+                            role="button"
+                            class="btn btn-next"
+                            data-story-index="0"
+                          >
+                            Зеленый двор
+                            <img
+                              src="images/arrow-right.svg"
+                              width="24"
+                              height="18"
+                              alt=""
+                            />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- VERY: SLIDE 1-3 -->
+                  <div class="swiper-slide" style="background-color: white">
+                    <div class="top-gradient"></div>
+                    <div class="stories-slider-actions">
+                      <button class="stories-slider-close-button"></button>
+                    </div>
+                    <div
+                      class="stories-slider-content"
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                      "
+                    >
+                      <div class="stories-slider-cnt" style="padding: 32px 0 0">
+                        <div class="wrapper">
+                          <img
+                            class="logo"
+                            src="images/very-logo.svg"
+                            width="89"
+                            height="23"
+                            alt=""
+                            style="margin-bottom: 20px"
+                          />
+                        </div>
+                        <img
+                          src="images/page-1-3-bg.jpg"
+                          width="360"
+                          height="260"
+                          alt=""
+                          style="width: 100%"
+                        />
+                        <p class="page-1-3-content page-text">
+                          На территории квартала высажено более тысячи деревьев
+                          и кустарников для создания уникальной среды.
+                        </p>
+                      </div>
+                      <div class="cta-layer">
+                        <div
+                          class="cta-layer__cnt"
+                          style="position: relative; z-index: 999999"
+                        >
+                          <a
+                            role="button"
+                            class="btn btn-next"
+                            data-story-index="0"
+                          >
+                            Спорт на свежем воздухе
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- VERY: SLIDE 1-4 -->
+                  <div class="swiper-slide" style="background-color: white">
+                    <div class="top-gradient"></div>
+                    <div class="stories-slider-actions">
+                      <button class="stories-slider-close-button"></button>
+                    </div>
+                    <div
+                      class="stories-slider-content"
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                      "
+                    >
+                      <div class="stories-slider-cnt" style="padding: 32px 0 0">
+                        <div class="wrapper">
+                          <img
+                            class="logo"
+                            src="images/very-logo.svg"
+                            width="89"
+                            height="23"
+                            alt=""
+                            style="margin-bottom: 20px"
+                          />
+                          <img
+                            src="images/page-1-4-bg.jpg"
+                            width="300"
+                            height="421"
+                            alt=""
+                            style="width: 100%"
+                          />
+                          <img
+                            class="page-1-4-gradient"
+                            src="images/page-1-4-gradient.png"
+                            alt=""
+                          />
+                          <div
+                            style="position: relative; z-index: 20; top: -90px"
+                          >
+                            <h1 class="page-title">В режиме “лайт”</h1>
+                            <p class="page-text">
+                              Насладитесь аэробикой или йогой на свежем воздухе,
+                              велосипедными прогулками, голландской ходьбой или
+                              плаванием.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="cta-layer">
+                        <div
+                          class="cta-layer__cnt"
+                          style="position: relative; z-index: 999999"
+                        >
+                          <a role="button" class="btn btn-form">
+                            Записаться на показ
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- VERY: FORM -->
+                  <div
+                    class="swiper-slide"
+                    style="background-color: white"
+                    data-duration="1000000"
+                  >
+                    <div class="top-gradient"></div>
+                    <div class="stories-slider-actions">
+                      <button class="stories-slider-close-button"></button>
+                    </div>
+                    <div
+                      class="stories-slider-content"
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                      "
+                    >
+                      <div
+                        class="stories-slider-cnt"
+                        style="padding: 32px 20px 0"
+                      >
+                        <img
+                          class="logo"
+                          src="images/very-logo.svg"
+                          width="89"
+                          height="23"
+                          alt=""
+                          style="margin-bottom: 20px"
+                        />
+                        <div class="sidebar__header">
+                          <img
+                            src="images/mainstreet-logo_white.svg"
+                            width="120"
+                            height="25"
+                            alt=""
+                          />
+                        </div>
+                        <div style="display: flex; flex-direction: column">
+                          <h1 class="page-title" style="margin-bottom: 7px">
+                            Заказать звонок
+                          </h1>
+                          <span class="page-text" style="margin-bottom: 20px">
+                            Свяжитесь с&nbsp;нами для получения информации
+                            по&nbsp;телефону или в&nbsp;мессенджерах
+                          </span>
+                          <form id="callbackForm" class="form" action="">
+                            <div class="input-block">
+                              <label class="input-label" for="name"
+                                >Ваше имя</label
+                              >
+                              <input
+                                class="input"
+                                id="name"
+                                name="name"
+                                type="text"
+                                required
+                              />
+                            </div>
+                            <div class="input-block">
+                              <label
+                                id="tel_label"
+                                class="input-label"
+                                for="phone"
+                                >Ваш номер телефона</label
+                              >
+                              <input
+                                class="input tel"
+                                id="tel"
+                                name="tel"
+                                type="tel"
+                                required
+                              />
+                            </div>
+                            <button
+                              class="btn btn_submit"
+                              id="send_call_btn"
+                              type="submit"
+                            >
+                              Отправить
+                            </button>
+                          </form>
+                          <span
+                            class="subscription-text"
+                            style="margin-bottom: 32px"
+                          >
+                            Нажимая кнопку «Отправить», Вы соглашаетесь
+                            с&nbsp;Пользовательским соглашением настоящего сайта
+                          </span>
+                          <div class="form-socials">
+                            <a role="button">
+                              <img
+                                src="images/telegram-icon.svg"
+                                width="40"
+                                height="40"
+                                alt=""
+                              />
+                            </a>
+                            <a
+                              role="button"
+                              onclick="window.location='https://wa.me/79030155954'"
+                            >
+                              <img
+                                src="images/whatsapp-icon.svg"
+                                width="40"
+                                height="40"
+                                alt=""
+                              />
+                            </a>
+                            <span class="form-socials-text">
+                              Или просто напишите нам в удобном для вас
+                              мессенджере
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- VERY: STORY 2 -->
+            <div class="swiper-slide">
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <!-- VERY: SLIDE 2-1 -->
+                  <div class="swiper-slide" style="background-color: white">
+                    <div class="top-gradient"></div>
+                    <div class="stories-slider-actions">
+                      <button class="stories-slider-close-button"></button>
+                    </div>
+                    <div
+                      class="stories-slider-content page-2-1-bg"
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                      "
+                    >
+                      <div class="stories-slider-cnt" style="padding: 32px 0 0">
+                        <div class="wrapper">
+                          <img
+                            class="logo"
+                            src="images/very-logo.svg"
+                            width="89"
+                            height="23"
+                            alt=""
+                            style="margin-bottom: 20px"
+                          />
+                          <h1 class="page-title" style="margin-bottom: 16px">
+                            Активный отдых
+                          </h1>
+                          <p class="page-text">
+                            Зарядитесь позитивом энергичных игр, полётов
+                            на&nbsp;крылатых качелях под парящим мостом
+                            и&nbsp;детским смехом, который сливается
+                            с&nbsp;шумом фонтана.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="cta-layer">
+                        <div
+                          class="cta-layer__cnt"
+                          style="position: relative; z-index: 999999"
+                        >
+                          <a
+                            role="button"
+                            class="btn btn-next"
+                            data-story-index="1"
+                          >
+                            Пространство для детей
+                            <img
+                              src="images/arrow-right.svg"
+                              width="24"
+                              height="18"
+                              alt=""
+                            />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- VERY: SLIDE 2-2 -->
+                  <div class="swiper-slide" style="background-color: white">
+                    <div class="top-gradient"></div>
+                    <div class="stories-slider-actions">
+                      <button class="stories-slider-close-button"></button>
+                    </div>
+                    <div
+                      class="stories-slider-content page-2-2-bg"
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                      "
+                    >
+                      <div class="stories-slider-cnt" style="padding: 32px 0 0">
+                        <div class="wrapper">
+                          <img
+                            class="logo"
+                            src="images/very-logo.svg"
+                            width="89"
+                            height="23"
+                            alt=""
+                            style="margin-bottom: 20px"
+                          />
+                          <h1 class="page-title" style="margin-bottom: 16px">
+                            Пространство<br />для детей
+                          </h1>
+                          <p class="page-text">
+                            На территории эко-квартала предусмотрены
+                            5&nbsp;ультрасовременных площадок с&nbsp;навесами,
+                            альпинарием, интерактивными играми на&nbsp;свежем
+                            воздухе для детей разных возрастов, занимающих 2500
+                            кв.м.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="cta-layer">
+                        <div
+                          class="cta-layer__cnt"
+                          style="position: relative; z-index: 999999"
+                        >
+                          <a
+                            role="button"
+                            class="btn btn-next"
+                            data-story-index="1"
+                          >
+                            Спорт на территории
+                            <img
+                              src="images/arrow-right.svg"
+                              width="24"
+                              height="18"
+                              alt=""
+                            />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- VERY: SLIDE 2-3 -->
+                  <div class="swiper-slide" style="background-color: white">
+                    <div class="top-gradient"></div>
+                    <div class="stories-slider-actions">
+                      <button class="stories-slider-close-button"></button>
+                    </div>
+                    <div
+                      class="stories-slider-content page-2-3-bg"
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                      "
+                    >
+                      <div class="stories-slider-cnt" style="padding: 32px 0 0">
+                        <div class="wrapper">
+                          <img
+                            class="logo"
+                            src="images/very-logo.svg"
+                            width="89"
+                            height="23"
+                            alt=""
+                            style="margin-bottom: 20px"
+                          />
+                          <h1 class="page-title" style="margin-bottom: 16px">
+                            Активный спорт
+                          </h1>
+                          <p class="page-text">
+                            Все возможности для спорта&nbsp;— на одной
+                            территории:
+                          </p>
+                          <ul class="marked-list">
+                            <li>
+                              SPA-комплекс с&nbsp;фитнес-залом и&nbsp;бассейном
+                            </li>
+                            <li>волейбольная площадка</li>
+                            <li>зона workout</li>
+                            <li>универсальная спортивная площадка</li>
+                            <li>крытая площадка для мини-футбола</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="cta-layer">
+                        <div
+                          class="cta-layer__cnt"
+                          style="position: relative; z-index: 999999"
+                        >
+                          <a
+                            role="button"
+                            class="btn btn-next"
+                            data-story-index="1"
+                          >
+                            Двор без машин
+                            <img
+                              src="images/arrow-right.svg"
+                              width="24"
+                              height="18"
+                              alt=""
+                            />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- VERY: SLIDE 2-4 -->
+                  <div class="swiper-slide" style="background-color: white">
+                    <div class="top-gradient"></div>
+                    <div class="stories-slider-actions">
+                      <button class="stories-slider-close-button"></button>
+                    </div>
+                    <div
+                      class="stories-slider-content page-2-4-bg"
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                      "
+                    >
+                      <div class="stories-slider-cnt" style="padding: 32px 0 0">
+                        <div class="wrapper">
+                          <img
+                            class="logo"
+                            src="images/very-logo.svg"
+                            width="89"
+                            height="23"
+                            alt=""
+                            style="margin-bottom: 20px"
+                          />
+                          <h1 class="page-title" style="margin-bottom: 16px">
+                            Двор без машин
+                          </h1>
+                          <p class="page-text">
+                            Спокойно отпускайте детей гулять. На&nbsp;каждой
+                            площадке они будут в&nbsp;полной безопасности.
+                          </p>
+                          <p class="page-text">
+                            Вся территория двора оборудована системами контроля
+                            доступа и&nbsp;видеонаблюдением.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="cta-layer">
+                        <div
+                          class="cta-layer__cnt"
+                          style="position: relative; z-index: 999999"
+                        >
+                          <a
+                            role="button"
+                            class="btn btn-next"
+                            data-story-index="1"
+                          >
+                            Прогулки
+                            <img
+                              src="images/arrow-right.svg"
+                              width="24"
+                              height="18"
+                              alt=""
+                            />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- VERY: SLIDE 2-5 -->
+                  <div class="swiper-slide" style="background-color: white">
+                    <div class="top-gradient"></div>
+                    <div class="stories-slider-actions">
+                      <button class="stories-slider-close-button"></button>
+                    </div>
+                    <div
+                      class="stories-slider-content page-2-5-bg"
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                      "
+                    >
+                      <div class="stories-slider-cnt" style="padding: 32px 0 0">
+                        <div class="wrapper">
+                          <img
+                            class="logo"
+                            src="images/very-logo.svg"
+                            width="89"
+                            height="23"
+                            alt=""
+                            style="margin-bottom: 20px"
+                          />
+                          <h1 class="page-title" style="margin-bottom: 16px">
+                            С красотой<br />и вкусом
+                          </h1>
+                          <p class="page-text">
+                            Совершите променад по&nbsp;парящему мосту,
+                            насладитесь видами со&nbsp;смотровых площадок или
+                            отведайте чашечку кофе с&nbsp;круассаном
+                            из&nbsp;местной пекарни.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="cta-layer">
+                        <div
+                          class="cta-layer__cnt"
+                          style="position: relative; z-index: 999999"
+                        >
+                          <a role="button" class="btn btn-form">
+                            Записаться на показ
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- VERY: STORY 3 -->
+            <div class="swiper-slide">
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <!-- VERY: SLIDE 3-1 -->
+                  <div class="swiper-slide" style="background-color: white">
+                    <!-- <div class="top-gradient"></div> -->
+                    <div class="stories-slider-actions">
+                      <button class="stories-slider-close-button"></button>
+                    </div>
+                    <div
+                      class="stories-slider-content page-3-1-bg"
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                      "
+                    >
+                      <div class="stories-slider-cnt" style="padding: 32px 0 0">
+                        <div class="wrapper">
+                          <img
+                            class="logo"
+                            src="images/very-logo_white.svg"
+                            width="89"
+                            height="23"
+                            alt=""
+                            style="margin-bottom: 35px"
+                          />
+                          <h1
+                            class="page-title"
+                            style="color: white; margin-bottom: 16px"
+                          >
+                            Функциональные лобби
+                          </h1>
+                        </div>
+                      </div>
+                      <div class="cta-layer">
+                        <div
+                          class="cta-layer__cnt"
+                          style="position: relative; z-index: 999999"
+                        >
+                          <p
+                            class="page-text page-text_white"
+                            style="margin-bottom: 36px"
+                          >
+                            Все необходимое<br />для комфортного пребывания
+                          </p>
+                          <a class="attachment-btn" role="button">
+                            <img src="images/attachment-icon.svg" alt="" />
+                            Подробнее о лобби
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="attachment">
+                      <button class="attachment-close-btn attachment-close">
+                        <img src="images/sidebar-close.svg" alt="" />
+                      </button>
+                      <div class="attachment-drawer">
+                        <div class="attachment-cnt">
+                          <h2 class="block-title">Особенности лобби</h2>
+                          <ul class="attachment-list">
+                            <li>Мягкая зона ожидания и&nbsp;детский уголок</li>
+                            <li>Комната матери и&nbsp;ребёнка</li>
+                            <li>Помещение для мойки лап ваших питомцев</li>
+                            <li>
+                              Колясочные с&nbsp;зарядками для электротехники
+                            </li>
+                            <li>Гостевая уборная</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- VERY: SLIDE 3-2 -->
+                  <div class="swiper-slide" style="background-color: white">
+                    <!-- <div class="top-gradient"></div> -->
+                    <div class="stories-slider-actions">
+                      <button class="stories-slider-close-button"></button>
+                    </div>
+                    <div
+                      class="stories-slider-content page-3-2-bg"
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                      "
+                    >
+                      <div class="stories-slider-cnt" style="padding: 32px 0 0">
+                        <div class="wrapper">
+                          <img
+                            class="logo"
+                            src="images/very-logo_white.svg"
+                            width="89"
+                            height="23"
+                            alt=""
+                            style="margin-bottom: 35px"
+                          />
+                          <h1
+                            class="page-title"
+                            style="color: white; margin-bottom: 16px"
+                          >
+                            Удобный паркинг
+                          </h1>
+                        </div>
+                      </div>
+                      <div class="cta-layer">
+                        <div
+                          class="cta-layer__cnt"
+                          style="position: relative; z-index: 999999"
+                        >
+                          <p
+                            class="page-text page-text_white"
+                            style="margin-bottom: 36px"
+                          >
+                            Спускайтесь к&nbsp;автомобилю на&nbsp;лифте прямо
+                            от&nbsp;квартиры.
+                          </p>
+                          <a
+                            role="button"
+                            class="btn btn-next"
+                            data-story-index="2"
+                          >
+                            Вместительные кладовые
+                            <img
+                              src="images/arrow-right.svg"
+                              width="24"
+                              height="18"
+                              alt=""
+                            />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- VERY: SLIDE 3-3 -->
+                  <div class="swiper-slide" style="background-color: white">
+                    <!-- <div class="top-gradient"></div> -->
+                    <div class="stories-slider-actions">
+                      <button class="stories-slider-close-button"></button>
+                    </div>
+                    <div
+                      class="stories-slider-content page-3-3-bg"
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                      "
+                    >
+                      <div class="stories-slider-cnt" style="padding: 32px 0 0">
+                        <div class="wrapper">
+                          <img
+                            class="logo"
+                            src="images/very-logo_white.svg"
+                            width="89"
+                            height="23"
+                            alt=""
+                            style="margin-bottom: 35px"
+                          />
+                          <h1
+                            class="page-title"
+                            style="color: white; margin-bottom: 16px"
+                          >
+                            Вместительные кладовые
+                          </h1>
+                        </div>
+                      </div>
+                      <div class="cta-layer">
+                        <div
+                          class="cta-layer__cnt"
+                          style="position: relative; z-index: 999999"
+                        >
+                          <p
+                            class="page-text page-text_white"
+                            style="margin-bottom: 36px"
+                          >
+                            Храните в&nbsp;просторной кладовой всё,<br />чем
+                            редко пользуетесь дома.
+                          </p>
+                          <a
+                            role="button"
+                            class="btn btn-next"
+                            data-story-index="2"
+                          >
+                            Об умном доме
+                            <img
+                              src="images/arrow-right.svg"
+                              width="24"
+                              height="18"
+                              alt=""
+                            />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- VERY: SLIDE 3-4 -->
+                  <div class="swiper-slide" style="background-color: white">
+                    <div class="top-gradient"></div>
+                    <div class="stories-slider-actions">
+                      <button class="stories-slider-close-button"></button>
+                    </div>
+                    <div
+                      class="stories-slider-content"
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                      "
+                    >
+                      <div class="stories-slider-cnt" style="padding: 32px 0 0">
+                        <div class="wrapper">
+                          <img
+                            class="logo"
+                            src="images/very-logo.svg"
+                            width="89"
+                            height="23"
+                            alt=""
+                            style="margin-bottom: 10px"
+                          />
+                          <h1 class="page-title" style="margin-bottom: 18px">
+                            Больше,<br />чем просто<br />«умный дом»
+                          </h1>
+                          <p class="page-text" style="margin-bottom: 10px">
+                            Все для комфорта в&nbsp;одном приложении!
+                          </p>
+                          <p class="page-text" style="margin-bottom: 0">
+                            Управляйте атмосферой вашей квартиры, сложной
+                            техникой, интеллектуальными сервисами дома
+                            и&nbsp;услугами.
+                          </p>
+                        </div>
+                        <img
+                          src="images/page-3-4-bg.jpg"
+                          alt=""
+                          style="width: 100%"
+                        />
+                      </div>
+                      <div class="cta-layer cta-layer_gradient">
+                        <div
+                          class="cta-layer__cnt"
+                          style="position: relative; z-index: 999999"
+                        >
+                          <a class="attachment-btn" role="button">
+                            <img src="images/attachment-icon.svg" alt="" />
+                            Подробнее о лобби
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="attachment">
+                      <button class="attachment-close-btn attachment-close">
+                        <img src="images/sidebar-close.svg" alt="" />
+                      </button>
+                      <div class="attachment-drawer">
+                        <div class="attachment-cnt" style="padding-top: 30px">
+                          <div class="attachment-item">
+                            <img
+                              src="images/face-id-icon.svg"
+                              width="48"
+                              height="48"
+                              alt=""
+                            />
+                            <h2 class="block-title">
+                              Умный дом мгновенно узнает вас по Face ID,
+                            </h2>
+                            <p
+                              class="page-text"
+                              style="font-size: 13px; margin: 0"
+                            >
+                              сам откроет двери и&nbsp;вызовет лифт
+                              до&nbsp;нужного вам этажа
+                            </p>
+                          </div>
+                          <div class="attachment-item" style="border-top: none">
+                            <img
+                              src="images/smart-app-icon.svg"
+                              width="48"
+                              height="48"
+                              alt=""
+                            />
+                            <h2 class="block-title">
+                              Для жителей дома будет разработано умное
+                              приложение:
+                            </h2>
+                            <ul class="marked-list" style="font-size: 13px">
+                              <li>
+                                можно оплатить услуги ЖКХ в&nbsp;один клик
+                              </li>
+                              <li>передать показания счетчиков</li>
+                              <li>
+                                заказать пропуск гостям или обратиться
+                                в&nbsp;управляющую компанию
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- VERY: SLIDE 3-5 -->
+                  <div class="swiper-slide" style="background-color: white">
+                    <div class="top-gradient"></div>
+                    <div class="stories-slider-actions">
+                      <button class="stories-slider-close-button"></button>
+                    </div>
+                    <div
+                      class="stories-slider-content page-3-5-bg"
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                      "
+                    >
+                      <div class="stories-slider-cnt" style="padding: 32px 0 0">
+                        <div class="wrapper">
+                          <img
+                            class="logo"
+                            src="images/very-logo.svg"
+                            width="89"
+                            height="23"
+                            alt=""
+                            style="margin-bottom: 20px"
+                          />
+                          <h1 class="page-title" style="margin-bottom: 18px">
+                            SPA-комплекс
+                          </h1>
+                          <p class="page-text">
+                            Настройтесь на&nbsp;качественный отдых
+                            и&nbsp;восстановление. Под крышей спорткомплекса
+                            VERY — зона SPA, баня, сауна, несколько массажных
+                            кабинетов.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="cta-layer">
+                        <div
+                          class="cta-layer__cnt"
+                          style="position: relative; z-index: 999999"
+                        >
+                          <a
+                            role="button"
+                            class="btn btn-next"
+                            data-story-index="2"
+                          >
+                            Биобезопасность
+                            <img
+                              src="images/arrow-right.svg"
+                              width="24"
+                              height="18"
+                              alt=""
+                            />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- VERY: SLIDE 3-6 -->
+                  <div class="swiper-slide" style="background-color: white">
+                    <div class="top-gradient"></div>
+                    <div class="stories-slider-actions">
+                      <button class="stories-slider-close-button"></button>
+                    </div>
+                    <div
+                      class="stories-slider-content page-3-6-bg"
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                      "
+                    >
+                      <div class="stories-slider-cnt" style="padding: 32px 0 0">
+                        <div class="wrapper">
+                          <img
+                            class="logo"
+                            src="images/very-logo.svg"
+                            width="89"
+                            height="23"
+                            alt=""
+                            style="margin-bottom: 20px"
+                          />
+                          <h1 class="page-title" style="margin-bottom: 18px">
+                            Биобезопасность
+                          </h1>
+                          <p class="page-text">
+                            В общественных пространствах дома работает система
+                            обеззараживания воздуха.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="cta-layer">
+                        <div
+                          class="cta-layer__cnt"
+                          style="position: relative; z-index: 999999"
+                        >
+                          <a role="button" class="btn btn-form">
+                            Записаться на просмотр
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- VERY: STORY 4 -->
+            <div class="swiper-slide">
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <!-- VERY: SLIDE 4-1 -->
+                  <div class="swiper-slide" style="background-color: white">
+                    <div class="top-gradient"></div>
+                    <div class="stories-slider-actions">
+                      <button class="stories-slider-close-button"></button>
+                    </div>
+                    <div
+                      class="stories-slider-content"
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                      "
+                    >
+                      <div class="stories-slider-cnt" style="padding: 32px 0 0">
+                        <div class="wrapper">
+                          <img
+                            class="logo"
+                            src="images/very-logo.svg"
+                            width="89"
+                            height="23"
+                            alt=""
+                            style="margin-bottom: 20px"
+                          />
+                          <img
+                            src="images/page-4-1-bg.jpg"
+                            style="width: 100%; margin-bottom: 27px"
+                            alt=""
+                          />
+                          <h1 class="page-title" style="margin-bottom: 18px">
+                            Умный детский сад
+                          </h1>
+                          <p class="page-text" style="margin-bottom: 10px">
+                            Современная система “умный детский сад” позаботится
+                            о&nbsp;комфорте и&nbsp;безопасности вашего ребенка:
+                          </p>
+                          <ul class="marked-list">
+                            <li>управление микроклиматом в&nbsp;помещениях</li>
+                            <li>система безопасности</li>
+                            <li>обеззараживание воздуха</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="cta-layer">
+                        <div
+                          class="cta-layer__cnt"
+                          style="position: relative; z-index: 999999"
+                        >
+                          <a
+                            role="button"
+                            class="btn btn-next"
+                            data-story-index="3"
+                          >
+                            Узнать подробности
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- VERY: SLIDE 4-2 -->
+                  <div class="swiper-slide" style="background-color: white">
+                    <div class="top-gradient"></div>
+                    <div class="stories-slider-actions">
+                      <button class="stories-slider-close-button"></button>
+                    </div>
+                    <div
+                      class="stories-slider-content"
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                      "
+                    >
+                      <div class="stories-slider-cnt" style="padding: 32px 0 0">
+                        <div class="wrapper">
+                          <img
+                            class="logo"
+                            src="images/very-logo.svg"
+                            width="89"
+                            height="23"
+                            alt=""
+                            style="margin-bottom: 30px"
+                          />
+                        </div>
+                        <img
+                          src="images/page-4-2-bg.jpg"
+                          style="width: 100%; margin-bottom: 24px"
+                          alt=""
+                        />
+                        <div class="wrapper">
+                          <h1 class="page-title" style="margin-bottom: 18px">
+                            Эксклюзивные<br />программы обучения
+                          </h1>
+                          <p class="page-text" style="margin-bottom: 10px">
+                            Разработаны ведущими научными сотрудниками Института
+                            изучения детства, семьи и&nbsp;воспитания Российской
+                            академии образования и&nbsp;сотрудниками детского
+                            центра развития ребенка при МГПУ.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="cta-layer">
+                        <div
+                          class="cta-layer__cnt"
+                          style="position: relative; z-index: 999999"
+                        >
+                          <a
+                            role="button"
+                            class="btn btn-next"
+                            data-story-index="3"
+                          >
+                            Подробнее
+                            <img
+                              src="images/arrow-right.svg"
+                              width="24"
+                              height="18"
+                              alt=""
+                            />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- VERY: SLIDE 4-3 -->
+                  <div class="swiper-slide" style="background-color: white">
+                    <div class="top-gradient"></div>
+                    <div class="stories-slider-actions">
+                      <button class="stories-slider-close-button"></button>
+                    </div>
+                    <div
+                      class="stories-slider-content"
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                      "
+                    >
+                      <div class="stories-slider-cnt" style="padding: 32px 0 0">
+                        <div class="wrapper">
+                          <img
+                            class="logo"
+                            src="images/very-logo.svg"
+                            width="89"
+                            height="23"
+                            alt=""
+                            style="margin-bottom: 11px"
+                          />
+                          <h1 class="page-title" style="margin-bottom: 6px">
+                            Инвестируем<br />в развитие детей
+                          </h1>
+                          <p class="page-text" style="margin-bottom: 15px">
+                            Главные задачи детского сада:
+                          </p>
+                          <img
+                            src="images/page-4-3-bg.jpg"
+                            style="width: 100%"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="cta-layer cta-layer_gradient">
+                        <div
+                          class="cta-layer__cnt"
+                          style="position: relative; z-index: 999999"
+                        >
+                          <a class="attachment-btn" role="button">
+                            <img src="images/attachment-icon.svg" alt="" />
+                            Посмотреть функционал
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="attachment">
+                      <button class="attachment-close-btn attachment-close">
+                        <img src="images/sidebar-close.svg" alt="" />
+                      </button>
+                      <div class="attachment-drawer">
+                        <div class="attachment-cnt" style="padding-top: 30px">
+                          <div class="attachment-item">
+                            <img
+                              src="images/interactive-icon.svg"
+                              width="48"
+                              height="48"
+                              alt=""
+                            />
+                            <h2 class="block-title">Интерактивное обучение</h2>
+                            <ul class="marked-list">
+                              <li>
+                                интерактивная обучающая система «Ожившие
+                                рисунки»
+                              </li>
+                              <li>грифельные стены для рисования</li>
+                              <li>
+                                настенные LEGO-островками для конструирования
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="attachment-item" style="border-top: none">
+                            <img
+                              src="images/creativity-icon.svg"
+                              width="48"
+                              height="38"
+                              alt=""
+                            />
+                            <h2 class="block-title">
+                              Центр творчества и&nbsp;спорта
+                            </h2>
+                            <p class="page-text" style="margin: 0">
+                              Многофункциональное пространство для проведения
+                              праздников, развлекательных и&nbsp;спортивных
+                              мероприятий, театральных постановок для детей
+                              и&nbsp;взрослых.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- VERY: SLIDE 4-4 -->
+                  <div class="swiper-slide" style="background-color: white">
+                    <div class="top-gradient"></div>
+                    <div class="stories-slider-actions">
+                      <button class="stories-slider-close-button"></button>
+                    </div>
+                    <div
+                      class="stories-slider-content"
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                      "
+                    >
+                      <div class="stories-slider-cnt" style="padding: 32px 0 0">
+                        <div class="wrapper">
+                          <img
+                            class="logo"
+                            src="images/very-logo.svg"
+                            width="89"
+                            height="23"
+                            alt=""
+                            style="margin-bottom: 20px"
+                          />
+                        </div>
+                        <img
+                          src="images/page-4-4-bg.jpg"
+                          style="width: 100%; margin-bottom: 18px"
+                          alt=""
+                        />
+                        <div class="wrapper">
+                          <h1 class="page-title" style="margin-bottom: 16px">
+                            На территории детского сада будут расположены:
+                          </h1>
+                          <ul class="marked-list">
+                            <li>
+                              медицинский кабинет с&nbsp;оборудованием для
+                              профилактики заболеваний
+                            </li>
+                            <li>
+                              сенсорная комната для обучения навыкам физического
+                              расслабления детей, повышения устойчивости
+                              к&nbsp;стрессам
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="cta-layer">
+                        <div
+                          class="cta-layer__cnt"
+                          style="position: relative; z-index: 999999"
+                        >
+                          <a role="button" class="btn btn-form">
+                            Забронировать место
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- VERY: STORY 5 -->
+            <div class="swiper-slide">
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <!-- VERY: SLIDE 5-1 -->
+                  <div class="swiper-slide" style="background-color: white">
+                    <div class="top-gradient"></div>
+                    <div class="stories-slider-actions">
+                      <button class="stories-slider-close-button"></button>
+                    </div>
+                    <div
+                      class="stories-slider-content"
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                      "
+                    >
+                      <div class="stories-slider-cnt" style="padding: 32px 0 0">
+                        <div class="wrapper">
+                          <img
+                            class="logo"
+                            src="images/very-logo.svg"
+                            width="89"
+                            height="23"
+                            alt=""
+                            style="margin-bottom: 20px"
+                          />
+                          <img
+                            class="layout-image"
+                            src="images/layouts/layout-1.png"
+                            width="219"
+                            height="219"
+                            alt=""
+                          />
+                          <h1 class="block-title" style="margin: 0 0 20px">
+                            Квартира-студия 23.46 м²
+                          </h1>
+                          <ul
+                            class="layout-params-list"
+                            style="margin-bottom: 34px"
+                          >
+                            <li>
+                              <img
+                                src="images/layouts-icons/windows-icon.svg"
+                                width="32"
+                                height="28"
+                                alt=""
+                              />
+                              <span class="page-text">Панорамные окна</span>
+                            </li>
+                            <li>
+                              <img
+                                src="images/layouts-icons/botanic-view.svg"
+                                width="32"
+                                height="30"
+                                alt=""
+                              />
+                              <span class="page-text"
+                                >Вид на Малый Ботанический сад</span
+                              >
+                            </li>
+                          </ul>
+                          <span class="price-block">10 369 320 ₽</span>
+                        </div>
+                      </div>
+                      <div class="cta-layer cta-layer_gradient">
+                        <div
+                          class="cta-layer__cnt"
+                          style="position: relative; z-index: 999999"
+                        >
+                          <a class="attachment-btn" role="button">
+                            <img src="images/attachment-icon.svg" alt="" />
+                            Подробнее
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="attachment">
+                      <button class="attachment-close-btn attachment-close">
+                        <img src="images/sidebar-close.svg" alt="" />
+                      </button>
+                      <div
+                        class="attachment-drawer"
+                        style="
+                          display: flex;
+                          flex-direction: column;
+                          justify-content: space-between;
+                        "
+                      >
+                        <div class="attachment-cnt" style="padding-top: 30px">
+                          <h2 class="block-title" style="margin: 0 0 12px">
+                            Общая площадь - 23.46 м²
+                          </h2>
+                          <ol class="ordered-list">
+                            <li>Кухня-гостиная — 16.53 м²</li>
+                            <li>Коридор — 3.74 м²</li>
+                            <li>Санузел — 3.19 м²</li>
+                          </ol>
+                          <h2 class="block-title">Особенности</h2>
+                          <ul
+                            class="attachment-list"
+                            style="margin-bottom: 40px"
+                          >
+                            <li>Панорамные окна</li>
+                            <li>Вид на Малый Ботанический сад</li>
+                          </ul>
+                        </div>
+                        <div class="attachment-cta">
+                          <button
+                            class="btn btn_small-font"
+                            onclick="this.nextElementSibling.classList.toggle('active')"
+                          >
+                            Забронировать
+                          </button>
+                          <div class="messengers-popup">
+                            <span class="messengers-popup__title"
+                              >Свяжитесь с нами</span
+                            >
+                            <div class="messengers-popup__buttons">
+                              <button
+                                role="button"
+                                onclick="window.location='https://t.me/OsnovaChatPlatformBot'"
+                              >
+                                <img
+                                  src="images/telegram-icon_color.svg"
+                                  layout="responsive"
+                                  width="36"
+                                  height="36"
+                                  alt=""
+                                />
+                              </button>
+                              <button
+                                role="button"
+                                onclick="window.location='https://wa.me/79030155954'"
+                              >
+                                <img
+                                  src="images/whatsapp-icon_color.svg"
+                                  width="36"
+                                  height="36"
+                                  alt=""
+                                />
+                              </button>
+                            </div>
+                          </div>
+                          <button
+                            role="button"
+                            class="btn btn-personal-form btn_dark btn_small-font"
+                          >
+                            Получить индивидуальную подборку
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- VERY: SLIDE 5-2 -->
+                  <div class="swiper-slide" style="background-color: white">
+                    <div class="top-gradient"></div>
+                    <div class="stories-slider-actions">
+                      <button class="stories-slider-close-button"></button>
+                    </div>
+                    <div
+                      class="stories-slider-content"
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                      "
+                    >
+                      <div class="stories-slider-cnt" style="padding: 32px 0 0">
+                        <div class="wrapper">
+                          <img
+                            class="logo"
+                            src="images/very-logo.svg"
+                            width="89"
+                            height="23"
+                            alt=""
+                            style="margin-bottom: 20px"
+                          />
+                          <img
+                            class="layout-image"
+                            src="images/layouts/layout-2.png"
+                            width="219"
+                            height="219"
+                            alt=""
+                          />
+                          <h1 class="block-title" style="margin: 0 0 20px">
+                            1-комнатная квартира 42.18 м²
+                          </h1>
+                          <ul
+                            class="layout-params-list"
+                            style="margin-bottom: 33px"
+                          >
+                            <li>
+                              <img
+                                src="images/layouts-icons/windows-icon.svg"
+                                width="32"
+                                height="28"
+                                alt=""
+                              />
+                              <span class="page-text">Панорамные окна</span>
+                            </li>
+                            <li>
+                              <img
+                                src="images/layouts-icons/wardrobe-icon.svg"
+                                width="32"
+                                height="32"
+                                alt=""
+                              />
+                              <span class="page-text">Гардеробная</span>
+                            </li>
+                          </ul>
+                          <span class="price-block">15 600 000 ₽</span>
+                        </div>
+                      </div>
+                      <div class="cta-layer cta-layer_gradient">
+                        <div
+                          class="cta-layer__cnt"
+                          style="position: relative; z-index: 999999"
+                        >
+                          <a class="attachment-btn" role="button">
+                            <img src="images/attachment-icon.svg" alt="" />
+                            Подробнее
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="attachment">
+                      <button class="attachment-close-btn attachment-close">
+                        <img src="images/sidebar-close.svg" alt="" />
+                      </button>
+                      <div
+                        class="attachment-drawer"
+                        style="
+                          display: flex;
+                          flex-direction: column;
+                          justify-content: space-between;
+                        "
+                      >
+                        <div class="attachment-cnt" style="padding-top: 30px">
+                          <h2 class="block-title" style="margin: 0 0 12px">
+                            Общая площадь - 42.18 м²
+                          </h2>
+                          <ol class="ordered-list">
+                            <li>Гостиная — 18.9 м²</li>
+                            <li>Кухня — 14.01 м²</li>
+                            <li>Коридор — 5.69 м²</li>
+                            <li>Санузел — 3.58 м²</li>
+                          </ol>
+                          <h2 class="block-title">Особенности</h2>
+                          <ul
+                            class="attachment-list"
+                            style="margin-bottom: 40px"
+                          >
+                            <li>Панорамные окна</li>
+                            <li>Гардеробная</li>
+                            <li>Прихожая без транзитных путей</li>
+                            <li>Вид на Малый Ботанический сад</li>
+                          </ul>
+                        </div>
+                        <div class="attachment-cta">
+                          <button
+                            class="btn btn_small-font"
+                            onclick="this.nextElementSibling.classList.toggle('active')"
+                          >
+                            Забронировать
+                          </button>
+                          <div class="messengers-popup">
+                            <span class="messengers-popup__title"
+                              >Свяжитесь с нами</span
+                            >
+                            <div class="messengers-popup__buttons">
+                              <button
+                                role="button"
+                                onclick="window.location='https://t.me/OsnovaChatPlatformBot'"
+                              >
+                                <img
+                                  src="images/telegram-icon_color.svg"
+                                  layout="responsive"
+                                  width="36"
+                                  height="36"
+                                  alt=""
+                                />
+                              </button>
+                              <button
+                                role="button"
+                                onclick="window.location='https://wa.me/79030155954'"
+                              >
+                                <img
+                                  src="images/whatsapp-icon_color.svg"
+                                  width="36"
+                                  height="36"
+                                  alt=""
+                                />
+                              </button>
+                            </div>
+                          </div>
+                          <button
+                            role="button"
+                            class="btn btn-personal-form btn_dark btn_small-font"
+                          >
+                            Получить индивидуальную подборку
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- VERY: SLIDE 5-3 -->
+                  <div class="swiper-slide" style="background-color: white">
+                    <div class="top-gradient"></div>
+                    <div class="stories-slider-actions">
+                      <button class="stories-slider-close-button"></button>
+                    </div>
+                    <div
+                      class="stories-slider-content"
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                      "
+                    >
+                      <div class="stories-slider-cnt" style="padding: 32px 0 0">
+                        <div class="wrapper">
+                          <img
+                            class="logo"
+                            src="images/very-logo.svg"
+                            width="89"
+                            height="23"
+                            alt=""
+                            style="margin-bottom: 20px"
+                          />
+                          <img
+                            class="layout-image"
+                            src="images/layouts/layout-3.png"
+                            width="219"
+                            height="219"
+                            alt=""
+                          />
+                          <h1 class="block-title" style="margin: 0 0 20px">
+                            2-комнатная квартира 46.05&nbsp;м²
+                          </h1>
+                          <ul
+                            class="layout-params-list"
+                            style="margin-bottom: 33px"
+                          >
+                            <li>
+                              <img
+                                src="images/layouts-icons/multispace-icon.svg"
+                                width="32"
+                                height="28"
+                                alt=""
+                              />
+                              <span class="page-text"
+                                >Мультипространство (без несущих стен)</span
+                              >
+                            </li>
+                            <li>
+                              <img
+                                src="images/layouts-icons/euroformat-icon.svg"
+                                width="32"
+                                height="32"
+                                alt=""
+                              />
+                              <span class="page-text"
+                                >Квартира евроформата</span
+                              >
+                            </li>
+                          </ul>
+                          <span class="price-block">18 558 150 ₽</span>
+                        </div>
+                      </div>
+                      <div class="cta-layer cta-layer_gradient">
+                        <div
+                          class="cta-layer__cnt"
+                          style="position: relative; z-index: 999999"
+                        >
+                          <a class="attachment-btn" role="button">
+                            <img src="images/attachment-icon.svg" alt="" />
+                            Подробнее
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="attachment">
+                      <button class="attachment-close-btn attachment-close">
+                        <img src="images/sidebar-close.svg" alt="" />
+                      </button>
+                      <div
+                        class="attachment-drawer"
+                        style="
+                          display: flex;
+                          flex-direction: column;
+                          justify-content: space-between;
+                        "
+                      >
+                        <div class="attachment-cnt" style="padding-top: 30px">
+                          <h2 class="block-title" style="margin: 0 0 12px">
+                            Общая площадь — 46.05 м²
+                          </h2>
+                          <ol class="ordered-list">
+                            <li>Кухня-гостиная — 23.97 м²</li>
+                            <li>Спальня — 13 м²</li>
+                            <li>Коридор — 4.9 м²</li>
+                            <li>Санузел — 4.18 м²</li>
+                          </ol>
+                          <h2 class="block-title">Особенности</h2>
+                          <ul
+                            class="attachment-list"
+                            style="margin-bottom: 40px"
+                          >
+                            <li>Панорамные окна</li>
+                            <li>Мультипространство (без несущих стен)</li>
+                            <li>Вид на Малый Ботанический сад</li>
+                            <li>Квартира евроформата</li>
+                            <li>Квартира с большой ванной комнатой</li>
+                          </ul>
+                        </div>
+                        <div class="attachment-cta">
+                          <button
+                            class="btn btn_small-font"
+                            onclick="this.nextElementSibling.classList.toggle('active')"
+                          >
+                            Забронировать
+                          </button>
+                          <div class="messengers-popup">
+                            <span class="messengers-popup__title"
+                              >Свяжитесь с нами</span
+                            >
+                            <div class="messengers-popup__buttons">
+                              <button
+                                role="button"
+                                onclick="window.location='https://t.me/OsnovaChatPlatformBot'"
+                              >
+                                <img
+                                  src="images/telegram-icon_color.svg"
+                                  layout="responsive"
+                                  width="36"
+                                  height="36"
+                                  alt=""
+                                />
+                              </button>
+                              <button
+                                role="button"
+                                onclick="window.location='https://wa.me/79030155954'"
+                              >
+                                <img
+                                  src="images/whatsapp-icon_color.svg"
+                                  width="36"
+                                  height="36"
+                                  alt=""
+                                />
+                              </button>
+                            </div>
+                          </div>
+                          <button
+                            role="button"
+                            class="btn btn-personal-form btn_dark btn_small-font"
+                          >
+                            Получить индивидуальную подборку
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- VERY: SLIDE 5-4 -->
+                  <div class="swiper-slide" style="background-color: white">
+                    <div class="top-gradient"></div>
+                    <div class="stories-slider-actions">
+                      <button class="stories-slider-close-button"></button>
+                    </div>
+                    <div
+                      class="stories-slider-content"
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                      "
+                    >
+                      <div class="stories-slider-cnt" style="padding: 32px 0 0">
+                        <div class="wrapper">
+                          <img
+                            class="logo"
+                            src="images/very-logo.svg"
+                            width="89"
+                            height="23"
+                            alt=""
+                            style="margin-bottom: 20px"
+                          />
+                          <img
+                            class="layout-image"
+                            src="images/layouts/layout-4.png"
+                            width="219"
+                            height="219"
+                            alt=""
+                          />
+                          <h1 class="block-title" style="margin: 0 0 30px">
+                            2-комнатная квартира 51.67&nbsp;м²
+                          </h1>
+                          <ul
+                            class="layout-params-list"
+                            style="margin-bottom: 33px"
+                          >
+                            <li>
+                              <img
+                                src="images/layouts-icons/euroformat-icon.svg"
+                                width="32"
+                                height="32"
+                                alt=""
+                              />
+                              <span class="page-text"
+                                >Квартира евроформата</span
+                              >
+                            </li>
+                            <li>
+                              <img
+                                src="images/layouts-icons/bathroom-icon.svg"
+                                width="32"
+                                height="30"
+                                alt=""
+                              />
+                              <span class="page-text"
+                                >Квартира с большой ванной комнатой</span
+                              >
+                            </li>
+                          </ul>
+                          <span class="price-block">20 668 000 ₽</span>
+                        </div>
+                      </div>
+                      <div class="cta-layer cta-layer_gradient">
+                        <div
+                          class="cta-layer__cnt"
+                          style="position: relative; z-index: 999999"
+                        >
+                          <a class="attachment-btn" role="button">
+                            <img src="images/attachment-icon.svg" alt="" />
+                            Подробнее
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="attachment">
+                      <button class="attachment-close-btn attachment-close">
+                        <img src="images/sidebar-close.svg" alt="" />
+                      </button>
+                      <div
+                        class="attachment-drawer"
+                        style="
+                          display: flex;
+                          flex-direction: column;
+                          justify-content: space-between;
+                        "
+                      >
+                        <div class="attachment-cnt" style="padding-top: 30px">
+                          <h2 class="block-title" style="margin: 0 0 12px">
+                            Общая площадь — 51.67 м²
+                          </h2>
+                          <ol class="ordered-list">
+                            <li>Кухня-гостиная — 26.69 м²</li>
+                            <li>Спальня — 16.77 м²</li>
+                            <li>Коридор — 3.18 м²</li>
+                            <li>Санузел — 5.03 м²</li>
+                          </ol>
+                          <h2 class="block-title">Особенности</h2>
+                          <ul
+                            class="attachment-list"
+                            style="margin-bottom: 40px"
+                          >
+                            <li>Панорамные окна</li>
+                            <li>Мультипространство (без несущих стен)</li>
+                            <li>Вид на Малый Ботанический сад</li>
+                            <li>Квартира евроформата</li>
+                            <li>Квартира с большой ванной комнатой</li>
+                          </ul>
+                        </div>
+                        <div class="attachment-cta">
+                          <button
+                            class="btn btn_small-font"
+                            onclick="this.nextElementSibling.classList.toggle('active')"
+                          >
+                            Забронировать
+                          </button>
+                          <div class="messengers-popup">
+                            <span class="messengers-popup__title"
+                              >Свяжитесь с нами</span
+                            >
+                            <div class="messengers-popup__buttons">
+                              <button
+                                role="button"
+                                onclick="window.location='https://t.me/OsnovaChatPlatformBot'"
+                              >
+                                <img
+                                  src="images/telegram-icon_color.svg"
+                                  layout="responsive"
+                                  width="36"
+                                  height="36"
+                                  alt=""
+                                />
+                              </button>
+                              <button
+                                role="button"
+                                onclick="window.location='https://wa.me/79030155954'"
+                              >
+                                <img
+                                  src="images/whatsapp-icon_color.svg"
+                                  width="36"
+                                  height="36"
+                                  alt=""
+                                />
+                              </button>
+                            </div>
+                          </div>
+                          <button
+                            role="button"
+                            class="btn btn-personal-form btn_dark btn_small-font"
+                          >
+                            Получить индивидуальную подборку
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- VERY: SLIDE 5-5 -->
+                  <div class="swiper-slide" style="background-color: white">
+                    <div class="top-gradient"></div>
+                    <div class="stories-slider-actions">
+                      <button class="stories-slider-close-button"></button>
+                    </div>
+                    <div
+                      class="stories-slider-content"
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                      "
+                    >
+                      <div class="stories-slider-cnt" style="padding: 32px 0 0">
+                        <div class="wrapper">
+                          <img
+                            class="logo"
+                            src="images/very-logo.svg"
+                            width="89"
+                            height="23"
+                            alt=""
+                            style="margin-bottom: 20px"
+                          />
+                          <img
+                            class="layout-image"
+                            src="images/layouts/layout-5.png"
+                            width="219"
+                            height="219"
+                            alt=""
+                          />
+                          <h1 class="block-title" style="margin: 0 0 30px">
+                            3-комнатная квартира 72.27&nbsp;м²
+                          </h1>
+                          <ul
+                            class="layout-params-list"
+                            style="margin-bottom: 33px"
+                          >
+                            <li>
+                              <img
+                                src="images/layouts-icons/compass-icon.svg"
+                                width="32"
+                                height="32"
+                                alt=""
+                              />
+                              <span class="page-text"
+                                >Окна с видом на 2 стороны света</span
+                              >
+                            </li>
+                            <li>
+                              <img
+                                src="images/layouts-icons/botanic-view.svg"
+                                width="32"
+                                height="30"
+                                alt=""
+                              />
+                              <span class="page-text"
+                                >Вид на Малый Ботанический сад</span
+                              >
+                            </li>
+                            <li>
+                              <img
+                                src="images/layouts-icons/ostankino-view.svg"
+                                width="32"
+                                height="32"
+                                alt=""
+                              />
+                              <span class="page-text">Вид на Останкино</span>
+                            </li>
+                          </ul>
+                          <span class="price-block">28 329 840 ₽</span>
+                        </div>
+                      </div>
+                      <div class="cta-layer cta-layer_gradient">
+                        <div
+                          class="cta-layer__cnt"
+                          style="position: relative; z-index: 999999"
+                        >
+                          <a class="attachment-btn" role="button">
+                            <img src="images/attachment-icon.svg" alt="" />
+                            Подробнее
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="attachment">
+                      <button class="attachment-close-btn attachment-close">
+                        <img src="images/sidebar-close.svg" alt="" />
+                      </button>
+                      <div
+                        class="attachment-drawer"
+                        style="
+                          display: flex;
+                          flex-direction: column;
+                          justify-content: space-between;
+                        "
+                      >
+                        <div class="attachment-cnt" style="padding-top: 30px">
+                          <h2 class="block-title" style="margin: 0 0 12px">
+                            Общая площадь — 72.27 м²
+                          </h2>
+                          <ol class="ordered-list">
+                            <li>Кухня-гостиная — 25.4 м²</li>
+                            <li>Спальня — 14.66 м²</li>
+                            <li>Спальня — 16.22 м²</li>
+                            <li>Коридор — 2.55 м²</li>
+                            <li>Коридор — 4.85 м²</li>
+                            <li>Санузел — 4.27 м²</li>
+                            <li>Санузел — 4.32 м²</li>
+                          </ol>
+                          <h2 class="block-title">Особенности</h2>
+                          <ul
+                            class="attachment-list"
+                            style="margin-bottom: 40px"
+                          >
+                            <li>Окна с видом на 2 стороны света</li>
+                            <li>Панорамные окна</li>
+                            <li>Вид на Малый Ботанический сад</li>
+                            <li>Вид на парк Останкино</li>
+                            <li>2 ванные комнаты и более</li>
+                            <li>Квартира евроформата</li>
+                            <li>Квартира с большой ванной комнатой</li>
+                          </ul>
+                        </div>
+                        <div class="attachment-cta">
+                          <button
+                            class="btn btn_small-font"
+                            onclick="this.nextElementSibling.classList.toggle('active')"
+                          >
+                            Забронировать
+                          </button>
+                          <div class="messengers-popup">
+                            <span class="messengers-popup__title"
+                              >Свяжитесь с нами</span
+                            >
+                            <div class="messengers-popup__buttons">
+                              <button
+                                role="button"
+                                onclick="window.location='https://t.me/OsnovaChatPlatformBot'"
+                              >
+                                <img
+                                  src="images/telegram-icon_color.svg"
+                                  layout="responsive"
+                                  width="36"
+                                  height="36"
+                                  alt=""
+                                />
+                              </button>
+                              <button
+                                role="button"
+                                onclick="window.location='https://wa.me/79030155954'"
+                              >
+                                <img
+                                  src="images/whatsapp-icon_color.svg"
+                                  width="36"
+                                  height="36"
+                                  alt=""
+                                />
+                              </button>
+                            </div>
+                          </div>
+                          <button
+                            role="button"
+                            class="btn btn-personal-form btn_dark btn_small-font"
+                          >
+                            Получить индивидуальную подборку
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- VERY: SLIDE 5-6 -->
+                  <div class="swiper-slide" style="background-color: white">
+                    <div class="top-gradient"></div>
+                    <div class="stories-slider-actions">
+                      <button class="stories-slider-close-button"></button>
+                    </div>
+                    <div
+                      class="stories-slider-content"
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                      "
+                    >
+                      <div class="stories-slider-cnt" style="padding: 32px 0 0">
+                        <div class="wrapper">
+                          <img
+                            class="logo"
+                            src="images/very-logo.svg"
+                            width="89"
+                            height="23"
+                            alt=""
+                            style="margin-bottom: 20px"
+                          />
+                          <h1 class="page-title">
+                            Доступно еще<br />15 видов планировок.
+                          </h1>
+                          <span
+                            class="page-text"
+                            style="display: block; margin-bottom: 9.4vh"
+                          >
+                            Получите индивидуальную подборку по&nbsp;вашим
+                            параметрам и&nbsp;ознакомьтесь со&nbsp;всеми
+                            вариантами планировок.
+                          </span>
+                          <div class="carousel" style="height: 200px">
+                            <a class="carousel-item">
+                              <img
+                                width="200"
+                                height="200"
+                                src="images/layouts-slider/layout-1.png"
+                              />
+                            </a>
+                            <a class="carousel-item">
+                              <img
+                                width="200"
+                                height="200"
+                                src="images/layouts-slider/layout-2.png"
+                              />
+                            </a>
+                            <a class="carousel-item">
+                              <img
+                                width="200"
+                                height="200"
+                                src="images/layouts-slider/layout-3.png"
+                              />
+                            </a>
+                            <a class="carousel-item">
+                              <img
+                                width="200"
+                                height="200"
+                                src="images/layouts-slider/layout-4.png"
+                              />
+                            </a>
+                            <a class="carousel-item">
+                              <img
+                                width="200"
+                                height="200"
+                                src="images/layouts-slider/layout-5.png"
+                              />
+                            </a>
+                            <a class="carousel-item">
+                              <img
+                                width="200"
+                                height="200"
+                                src="images/layouts-slider/layout-6.png"
+                              />
+                            </a>
+                            <a class="carousel-item">
+                              <img
+                                width="200"
+                                height="200"
+                                src="images/layouts-slider/layout-7.png"
+                              />
+                            </a>
+                            <a class="carousel-item">
+                              <img
+                                width="200"
+                                height="200"
+                                src="images/layouts-slider/layout-8.png"
+                              />
+                            </a>
+                            <a class="carousel-item">
+                              <img
+                                width="200"
+                                height="200"
+                                src="images/layouts-slider/layout-9.png"
+                              />
+                            </a>
+                            <a class="carousel-item">
+                              <img
+                                width="200"
+                                height="200"
+                                src="images/layouts-slider/layout-10.png"
+                              />
+                            </a>
+                            <a class="carousel-item">
+                              <img
+                                width="200"
+                                height="200"
+                                src="images/layouts-slider/layout-11.png"
+                              />
+                            </a>
+                            <a class="carousel-item">
+                              <img
+                                width="200"
+                                height="200"
+                                src="images/layouts-slider/layout-12.png"
+                              />
+                            </a>
+                            <a class="carousel-item">
+                              <img
+                                width="200"
+                                height="200"
+                                src="images/layouts-slider/layout-13.png"
+                              />
+                            </a>
+                            <a class="carousel-item">
+                              <img
+                                width="200"
+                                height="200"
+                                src="images/layouts-slider/layout-14.png"
+                              />
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="cta-layer">
+                        <div
+                          class="cta-layer__cnt"
+                          style="position: relative; z-index: 999999"
+                        >
+                          <a class="btn btn-personal-form" role="button">
+                            Получить индивидуальную подборку
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- VERY: PERSONAL FORM -->
+                  <div
+                    class="swiper-slide"
+                    style="background-color: white"
+                    data-duration="1000000"
+                  >
+                    <div class="top-gradient"></div>
+                    <div class="stories-slider-actions">
+                      <button class="stories-slider-close-button"></button>
+                    </div>
+                    <div
+                      class="stories-slider-content"
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                      "
+                    >
+                      <div
+                        class="stories-slider-cnt"
+                        style="padding: 32px 20px 0"
+                      >
+                        <img
+                          class="logo"
+                          src="images/mainstreet-logo.svg"
+                          width="151"
+                          height="32"
+                          alt=""
+                          style="margin-left: 0; margin-bottom: 20px"
+                        />
+                        <h1
+                          class="page-title"
+                          style="
+                            margin: 0 0 24px;
+                            position: relative;
+                            z-index: 10;
+                            font-size: 32px;
+                          "
+                        >
+                          Получите<br />
+                          индивидуальную подборку
+                        </h1>
+                        <form id="formPersonal" class="whatsapp-form">
+                          <div class="whatsapp-form__row">
+                            <span class="whatsapp-form__row-title"
+                              >Количество спален</span
+                            >
+                            <div class="whatsapp-form__input-block">
+                              <div class="whatsapp-form__input-block-item">
+                                <span>от</span>
+                                <input
+                                  id="bedrooms_from"
+                                  type="text"
+                                  placeholder="1"
+                                  onkeyup="this.value = this.value.replace(/[^\d]/g,'');"
+                                />
+                              </div>
+                              <div class="whatsapp-form__input-block-item">
+                                <span>до</span>
+                                <input
+                                  id="bedrooms_to"
+                                  type="text"
+                                  placeholder="5"
+                                  onkeyup="this.value = this.value.replace(/[^\d]/g,'');"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <div class="whatsapp-form__row">
+                            <span class="whatsapp-form__row-title"
+                              >Стоимость</span
+                            >
+                            <div class="whatsapp-form__input-block">
+                              <div class="whatsapp-form__input-block-item">
+                                <span>до</span>
+                                <input
+                                  id="cost"
+                                  type="text"
+                                  placeholder="70 078 296 ₽"
+                                  onkeyup="this.value = this.value.replace(/[^\d]/g,'');"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <div class="whatsapp-form__row">
+                            <span class="whatsapp-form__row-title"
+                              >Площадь</span
+                            >
+                            <div class="whatsapp-form__input-block">
+                              <div class="whatsapp-form__input-block-item">
+                                <span>от</span>
+                                <input
+                                  id="square_from"
+                                  type="num"
+                                  placeholder="30"
+                                  onkeyup="this.value = this.value.replace(/[^\d]/g,'');"
+                                />
+                              </div>
+                              <div class="whatsapp-form__input-block-item">
+                                <span>до</span>
+                                <input
+                                  id="square_to"
+                                  type="num"
+                                  placeholder="180"
+                                  onkeyup="this.value = this.value.replace(/[^\d]/g,'');"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <div class="whatsapp-form__row">
+                            <span class="whatsapp-form__row-title">Имя</span>
+                            <div class="whatsapp-form__input-block">
+                              <div class="whatsapp-form__input-block-item">
+                                <input
+                                  id="name_pers"
+                                  type="text"
+                                  placeholder="Ваше имя"
+                                  required
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <div class="whatsapp-form__row">
+                            <span
+                              id="tel_label_"
+                              class="whatsapp-form__row-title"
+                              >Телефон</span
+                            >
+                            <div class="whatsapp-form__input-block">
+                              <div class="whatsapp-form__input-block-item">
+                                <input
+                                  id="tel_pers"
+                                  class="tel"
+                                  type="tel"
+                                  minlength="18"
+                                  required
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <button
+                            type="submit"
+                            id="construct_btn_send"
+                            class="btn"
+                            style="text-transform: none; margin: 6px 0 16px"
+                          >
+                            Получить подборку
+                          </button>
+                        </form>
+                        <div class="form-socials">
+                          <a
+                            role="button"
+                            onclick="window.location='https://t.me/OsnovaChatPlatformBot'"
+                          >
+                            <img
+                              src="images/telegram-icon.svg"
+                              width="40"
+                              height="40"
+                              alt=""
+                            />
+                          </a>
+                          <a
+                            role="button"
+                            onclick="window.location='https://wa.me/79030155954'"
+                          >
+                            <img
+                              src="images/whatsapp-icon.svg"
+                              width="40"
+                              height="40"
+                              alt=""
+                            />
+                          </a>
+                          <span class="form-socials-text" style="color: black">
+                            Или просто напишите нам<br />в удобном для вас
+                            мессенджере
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- VERY: STORY 6 -->
+            <div class="swiper-slide">
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <!-- VERY: SLIDE 6-1 -->
+                  <div class="swiper-slide" style="background-color: white">
+                    <div class="top-gradient"></div>
+                    <div class="stories-slider-actions">
+                      <button class="stories-slider-close-button"></button>
+                    </div>
+                    <div
+                      class="stories-slider-content page-6-1-bg"
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                      "
+                    >
+                      <div class="stories-slider-cnt" style="padding: 32px 0 0">
+                        <div class="wrapper">
+                          <img
+                            class="logo"
+                            src="images/very-logo.svg"
+                            width="89"
+                            height="23"
+                            alt=""
+                            style="margin-bottom: 20px"
+                          />
+                          <h1 class="block-title" style="margin: 0 0 24px">
+                            Ипотека "Микс"
+                          </h1>
+                          <div class="therms-content-block">
+                            <div
+                              class="therms-content-block__header"
+                              style="padding-bottom: 0; border: none"
+                            >
+                              <img
+                                src="images/page-6-1-icon.svg"
+                                width="53"
+                                height="53"
+                                alt=""
+                              />
+                              <span class="therms-content-block__title"
+                                >Cтавка от 1,1%</span
+                              >
+                            </div>
+                            <span
+                              style="
+                                display: block;
+                                text-align: left;
+                                font-weight: 700;
+                                font-size: 14px;
+                                line-height: 1.4;
+                                color: #373a3b;
+                                border-bottom: 1px solid #e5e5e5;
+                                padding: 0 0 14px 14px;
+                                margin-bottom: 10px;
+                              "
+                            >
+                              12 млн от государства<br />
+                              + 13,5 млн от ГК ОСНОВА
+                            </span>
+                            <div class="therms-content-block__content">
+                              <p class="list-title">Условия:</p>
+                              <ul
+                                class="marked-list"
+                                style="margin-bottom: 10px"
+                              >
+                                <li>на весь срок</li>
+                                <li>первоначальный взнос 15%</li>
+                                <li>30 лет</li>
+                                <li>50 млн</li>
+                              </ul>
+                              <span style="font-size: 10px; color: #3f4440"
+                                >* без удорожания</span
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="cta-layer">
+                        <div
+                          class="cta-layer__cnt"
+                          style="position: relative; z-index: 999999"
+                        >
+                          <a class="btn btn-form" role="button">Рассчитать</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- VERY: SLIDE 6-2 -->
+                  <div class="swiper-slide" style="background-color: white">
+                    <div class="top-gradient"></div>
+                    <div class="stories-slider-actions">
+                      <button class="stories-slider-close-button"></button>
+                    </div>
+                    <div
+                      class="stories-slider-content page-6-2-bg"
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                      "
+                    >
+                      <div class="stories-slider-cnt" style="padding: 32px 0 0">
+                        <div class="wrapper">
+                          <img
+                            class="logo"
+                            src="images/very-logo.svg"
+                            width="89"
+                            height="23"
+                            alt=""
+                            style="margin-bottom: 20px"
+                          />
+                          <h1 class="block-title" style="margin: 0 0 23px">
+                            Семейная ипотека
+                          </h1>
+                          <div class="therms-content-block">
+                            <div class="therms-content-block__header">
+                              <img
+                                src="images/page-6-2-icon.svg"
+                                width="53"
+                                height="53"
+                                alt=""
+                              />
+                              <span class="therms-content-block__title"
+                                >Cтавка от 1,1%</span
+                              >
+                            </div>
+                            <div class="therms-content-block__content">
+                              <p class="list-title">Условия:</p>
+                              <ul
+                                class="marked-list"
+                                style="margin-bottom: 10px"
+                              >
+                                <li>2 года под 1,1%, далее 5,7%</li>
+                                <li>первоначальный взнос 15%</li>
+                                <li>30 лет</li>
+                                <li>до 50 млн</li>
+                              </ul>
+                              <span style="font-size: 10px; color: #3f4440"
+                                >* без удорожания</span
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="cta-layer">
+                        <div
+                          class="cta-layer__cnt"
+                          style="position: relative; z-index: 999999"
+                        >
+                          <a class="btn btn-form" role="button">Рассчитать</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- VERY: SLIDE 6-3 -->
+                  <div class="swiper-slide" style="background-color: white">
+                    <div class="top-gradient"></div>
+                    <div class="stories-slider-actions">
+                      <button class="stories-slider-close-button"></button>
+                    </div>
+                    <div
+                      class="stories-slider-content page-6-3-bg"
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                      "
+                    >
+                      <div class="stories-slider-cnt" style="padding: 32px 0 0">
+                        <div class="wrapper">
+                          <img
+                            class="logo"
+                            src="images/very-logo.svg"
+                            width="89"
+                            height="23"
+                            alt=""
+                            style="margin-bottom: 20px"
+                          />
+                          <h1 class="block-title" style="margin: 0 0 23px">
+                            Trade-in
+                          </h1>
+                          <div
+                            class="therms-content-block"
+                            style="padding: 22px"
+                          >
+                            <div class="therms-content-block__header">
+                              <img
+                                src="images/page-6-3-icon.svg"
+                                width="53"
+                                height="53"
+                                alt=""
+                              />
+                              <span class="therms-content-block__title"
+                                >Выгодный Trade-in</span
+                              >
+                            </div>
+                            <div class="therms-content-block__content">
+                              <ul class="marked-list">
+                                <li>
+                                  Оценим рыночную стоимость вашей текущей
+                                  квартиры
+                                </li>
+                                <li>Подберем для вас лучшие варианты</li>
+                                <li>Покажем варианты для обмена без доплат</li>
+                                <li>
+                                  Зафиксируем стоимость выбранной квартиры
+                                  на&nbsp;30 дней
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="cta-layer">
+                        <div
+                          class="cta-layer__cnt"
+                          style="position: relative; z-index: 999999"
+                        >
+                          <a class="btn btn-form" role="button"
+                            >Получить расчет</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- VERY: SLIDE 6-4 -->
+                  <div class="swiper-slide" style="background-color: white">
+                    <div class="top-gradient"></div>
+                    <div class="stories-slider-actions">
+                      <button class="stories-slider-close-button"></button>
+                    </div>
+                    <div
+                      class="stories-slider-content page-6-4-bg"
+                      style="
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                      "
+                    >
+                      <div class="stories-slider-cnt" style="padding: 32px 0 0">
+                        <div class="wrapper">
+                          <img
+                            class="logo"
+                            src="images/very-logo.svg"
+                            width="89"
+                            height="23"
+                            alt=""
+                            style="margin-bottom: 20px"
+                          />
+                          <h1 class="block-title" style="margin: 0 0 23px">
+                            Рассрочка
+                          </h1>
+                          <div
+                            class="therms-content-block"
+                            style="padding: 22px"
+                          >
+                            <div class="therms-content-block__header">
+                              <img
+                                src="images/page-6-1-icon.svg"
+                                width="53"
+                                height="53"
+                                alt=""
+                              />
+                              <span class="therms-content-block__title"
+                                >Рассрочка без %</span
+                              >
+                            </div>
+                            <div class="therms-content-block__content">
+                              <p class="list-title">
+                                Доступны несколько видов рассрочек:
+                              </p>
+                              <ul class="marked-list">
+                                <li>Квартальная, на 12 и 18 месяцев</li>
+                                <li>Первоначальный взнос <b>от 20%</b></li>
+                                <li><b>без %*</b></li>
+                              </ul>
+                              <span style="font-size: 10px; color: #3f4440"
+                                >* подробную информация уточняйте у
+                                менеджера</span
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="cta-layer">
+                        <div
+                          class="cta-layer__cnt"
+                          style="position: relative; z-index: 999999"
+                        >
+                          <a class="btn btn-form" role="button"
+                            >Связаться с менеджером</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        var elem = document.querySelector('.carousel');
+        var instance = M.Carousel.init(elem, {
+          dist: -200,
+          shift: -60,
+          numVisible: 14,
+        });
+      });
+    </script>
+    <script>
+      function comagicSendData(comagicData) {
+        console.log(comagicData);
+        Comagic.addOfflineRequest(
+          {
+            name: comagicData.name,
+            email: comagicData.email,
+            phone: comagicData.tel,
+            form_name: comagicData.formName,
+            message: comagicData.message,
+          },
+          function (o) {
+            let m = JSON.parse(o.response);
+            if (!m.success) {
+              console.log('Error send data');
+              console.log(o.response);
+              document.getElementById('send_call_btn').textContent =
+                'Ошибка отправки';
+              document.getElementById('construct_btn_send').textContent =
+                'Ошибка отправки';
+              return;
+            }
+            document.getElementById('send_call_btn').textContent =
+              'Заявка успешно отправлена';
+            document.getElementById('construct_btn_send').textContent =
+              'Заявка успешно отправлена';
+          },
+        );
+      }
+
+      // ############# formPersonal Event #############
+      document.getElementById('formPersonal').onsubmit = function () {
+        event.preventDefault();
+        let name = document.getElementById('name_pers');
+        let tel = document.getElementById('tel_pers');
+        let bedrooms_from = document.getElementById('bedrooms_from');
+        let bedrooms_to = document.getElementById('bedrooms_to');
+        let square_from = document.getElementById('square_from');
+        let square_to = document.getElementById('square_to');
+        let cost = document.getElementById('cost');
+
+        if (tel.value == '') {
+          document.getElementById('tel_label_').style.color = '#FF0000';
+          return;
+        }
+
+        var obj = new Object();
+        obj.number_of_bedrooms_from = bedrooms_from.value;
+        obj.number_of_bedrooms_to = bedrooms_to.value;
+        obj.square_from = square_from.value;
+        obj.square_to = square_to.value;
+        obj.cost = cost.value;
+        let jsonString = JSON.stringify(obj);
+
+        let comagicData = new Object();
+        comagicData.name = name.value;
+        comagicData.tel = tel.value;
+        comagicData.formName = 'Форма: Получите индивидуальную подборку';
+        comagicData.message = jsonString;
+        comagicSendData(comagicData);
+      };
+      // ############# formPersonal Event #############
+
+      // ############# Phone mask #############
+      window.addEventListener('DOMContentLoaded', function () {
+        [].forEach.call(document.querySelectorAll('.tel'), function (input) {
+          var keyCode;
+          function mask(event) {
+            event.keyCode && (keyCode = event.keyCode);
+            var pos = this.selectionStart;
+            if (pos < 3) event.preventDefault();
+            var matrix = '+7 (___) ___-__-__',
+              i = 0,
+              def = matrix.replace(/\D/g, ''),
+              val = this.value.replace(/\D/g, ''),
+              new_value = matrix.replace(/[_\d]/g, function (a) {
+                return i < val.length ? val.charAt(i++) || def.charAt(i) : a;
+              });
+            i = new_value.indexOf('_');
+            if (i != -1) {
+              i < 5 && (i = 3);
+              new_value = new_value.slice(0, i);
+            }
+            var reg = matrix
+              .substr(0, this.value.length)
+              .replace(/_+/g, function (a) {
+                return '\\d{1,' + a.length + '}';
+              })
+              .replace(/[+()]/g, '\\$&');
+            reg = new RegExp('^' + reg + '$');
+            if (
+              !reg.test(this.value) ||
+              this.value.length < 5 ||
+              (keyCode > 47 && keyCode < 58)
+            )
+              this.value = new_value;
+            if (event.type == 'blur' && this.value.length < 5) this.value = '';
+          }
+
+          input.addEventListener('input', mask, false);
+          input.addEventListener('focus', mask, false);
+          input.addEventListener('blur', mask, false);
+          input.addEventListener('keydown', mask, false);
+        });
+      });
+      // ############# Phone mask #############
+    </script>
+    <script type="text/javascript">
+      var __cs = __cs || [];
+      __cs.push(['setCsAccount', 'P9MGH_SwFkyiulNp2y0zlvS_NsTzwYlk']);
+    </script>
+    <script
+      type="text/javascript"
+      async
+      src="https://app.comagic.ru/static/cs.min.js"
+    ></script>
+  </body>
+</html>
