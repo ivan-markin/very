@@ -11,8 +11,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stories Slider</title>
-    <script type="module" crossorigin src="assets/index.0161054f.js"></script>
-    <link rel="stylesheet" href="assets/index.01c801e3.css">
+    <script type="module" crossorigin src="assets/index.185d4a5e.js"></script>
+    <link rel="stylesheet" href="assets/index.7d2bc10d.css">
   </head>
 
   <body>
@@ -108,7 +108,6 @@
                             <ul class="splide__list">
                               <li class="splide__slide">
                                 <img
-                                  class="swiper-slide inner-swiper-slide"
                                   src="images/slider-images/image-1.jpg"
                                   width="720"
                                   height="470"
@@ -117,7 +116,6 @@
                               </li>
                               <li class="splide__slide">
                                 <img
-                                  class="swiper-slide inner-swiper-slide"
                                   src="images/slider-images/image-2.jpg"
                                   width="720"
                                   height="470"
@@ -126,7 +124,6 @@
                               </li>
                               <li class="splide__slide">
                                 <img
-                                  class="swiper-slide inner-swiper-slide"
                                   src="images/slider-images/image-3.jpg"
                                   width="720"
                                   height="470"
@@ -135,7 +132,6 @@
                               </li>
                               <li class="splide__slide">
                                 <img
-                                  class="swiper-slide inner-swiper-slide"
                                   src="images/slider-images/image-4.jpg"
                                   width="720"
                                   height="470"
@@ -144,7 +140,6 @@
                               </li>
                               <li class="splide__slide">
                                 <img
-                                  class="swiper-slide inner-swiper-slide"
                                   src="images/slider-images/image-5.jpg"
                                   width="720"
                                   height="470"
@@ -155,58 +150,6 @@
                           </div>
                           <div class="splide__arrows"></div>
                         </section>
-                        <!-- <div class="slider swiper">
-                          <div class="swiper-wrapper">
-                            <img
-                              class="swiper-slide inner-swiper-slide"
-                              src="images/slider-images/image-1.jpg"
-                              width="720"
-                              height="470"
-                              alt=""
-                            />
-                            <img
-                              class="swiper-slide inner-swiper-slide"
-                              src="images/slider-images/image-2.jpg"
-                              width="720"
-                              height="470"
-                              alt=""
-                            />
-                            <img
-                              class="swiper-slide inner-swiper-slide"
-                              src="images/slider-images/image-3.jpg"
-                              width="720"
-                              height="470"
-                              alt=""
-                            />
-                            <img
-                              class="swiper-slide inner-swiper-slide"
-                              src="images/slider-images/image-4.jpg"
-                              width="720"
-                              height="470"
-                              alt=""
-                            />
-                            <img
-                              class="swiper-slide inner-swiper-slide"
-                              src="images/slider-images/image-5.jpg"
-                              width="720"
-                              height="470"
-                              alt=""
-                            />
-                          </div>
-                          <div class="slider__navigation">
-                            <div class="slider__controls">
-                              <a
-                                role="button"
-                                class="slider__control inner-swiper-button-prev"
-                              ></a>
-                              <a
-                                role="button"
-                                class="slider__control inner-swiper-button-next"
-                              ></a>
-                            </div>
-                            <div class="inner-swiper-pagination"></div>
-                          </div>
-                        </div> -->
                       </div>
                       <div class="cta-layer">
                         <div
@@ -2575,7 +2518,7 @@
                                 <span>от</span>
                                 <input
                                   id="bedrooms_from"
-                                  type="text"
+                                  type="num"
                                   placeholder="1"
                                   onkeyup="this.value = this.value.replace(/[^\d]/g,'');"
                                 />
@@ -2584,7 +2527,7 @@
                                 <span>до</span>
                                 <input
                                   id="bedrooms_to"
-                                  type="text"
+                                  type="num"
                                   placeholder="5"
                                   onkeyup="this.value = this.value.replace(/[^\d]/g,'');"
                                 />
@@ -2600,7 +2543,7 @@
                                 <span>до</span>
                                 <input
                                   id="cost"
-                                  type="text"
+                                  type="num"
                                   placeholder="70 078 296 ₽"
                                   onkeyup="this.value = this.value.replace(/[^\d]/g,'');"
                                 />
@@ -2641,6 +2584,7 @@
                                   type="text"
                                   placeholder="Ваше имя"
                                   required
+                                  style="position: relative; bottom: -3px"
                                 />
                               </div>
                             </div>
